@@ -1,0 +1,165 @@
+* {
+    font-family: 'Roboto Slab', serif;
+}
+
+body {
+    width: 100%;
+    /* background-color: #FAF9F6; */
+    margin: 0px;
+    display: flex;
+    flex-direction: column;
+}
+
+
+/* ============================ */
+/* NAVBAR */
+/* ============================ */
+
+
+.nav-wrapper {
+    background-color: black;
+}
+
+.brand-logo {
+    margin-left: 40px;
+}
+
+
+/* ============================ */
+/* INTRO */
+/* ============================ */
+
+#me {
+    background-color: #FAF9F6;
+    height: 500px;
+    color: black;
+    text-align: justify;
+    width: 66%;
+    margin: auto;
+}
+
+#me section h1{
+    margin-top: 120px;
+    line-height: .2;
+}
+
+/* ============================ */
+/* PROJECTS */
+/* ============================ */
+
+#projects {
+    height: 500px;
+    max-width: 66%;
+    margin: auto;
+    margin-top: 250px;
+}
+
+#projects h4{
+    text-align: center;
+}
+
+#projects .projects{
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+/* ============================ */
+/* Project Card */
+/* ============================ */
+
+.project {
+    width: 22%;
+    text-align: center;
+    margin: 0 10px 0 10px;
+}
+
+.project a{
+    transition: transform .5s;
+}
+
+.project a :hover{
+    transform: scale(1.5);
+}
+
+/* ============================ */
+/* ABOUT ME */
+/* ============================ */
+
+#about{
+    background-color: #FAF9F6;
+    height: 500px;
+    width: 66%;
+    margin: auto;
+    padding-top: 50px;
+}
+
+#about h4{
+    text-align: center;
+}
+
+.skills {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+}
+
+.skill {
+    color: white;
+    background-color: black;
+    padding: 0 5px 0 5px;
+    margin: 0 5px 15px 5px;
+    border-radius: 4px;
+}
+
+/* ============================ */
+/* CONTACT FORM*/
+/* FROM W3 Schools */
+/* ============================ */
+
+/* #contact {
+    height: 500px;
+} */
+
+input[type=text], select, textarea {
+    width: 100%; /* Full width */
+    padding: 12px; /* Some padding */ 
+    border: 1px solid #ccc; /* Gray border */
+    border-radius: 4px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 6px; /* Add a top margin */
+    margin-bottom: 16px; /* Bottom margin */
+    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+  }
+  
+  /* Style the submit button with a specific background color etc */
+  input[type=submit] {
+    background-color: black;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  /* When moving the mouse over the submit button, add a darker green color
+  input[type=submit]:hover {
+    background-color: #45a049;
+  } */
+  
+  /* Add a background color and some padding around the form */
+  .container {
+    border-radius: 5px;
+    /* background-color: #f2f2f2; */
+    padding: 20px;
+  }
+
+
+/* ============================ */
+/* FOOTER */
+/* ============================ */
+
+.page-footer {
+    background-color: black;
+}
